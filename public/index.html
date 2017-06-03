@@ -2,8 +2,145 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/impresion.css" media="print">				<!-- Estilo creado para imprimir la pagina -->
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+		<title>Higiene Postural</title>
 	</head>
 	<body>
+		<div id="contenido">
+            <div id="ampliador">
+                <img id="mas"   alt="Ampliar texto" src="img/ampliar.png"/>
+                <img id="menos" alt="Reducir Texto" src="img/reducir.png"/>
+            </div>
+			<div id="header" onclick="location.href='index.html'">								<!-- Javascript utilizado para usar background como enlace -->
+				<img src="img/logo-print.png" alt="Logo página de impresión">	
+                <h6>HIGIENE POSTURAL - INFORMÁTICA</h6>
+            </div>
+			<div id="posicion">
+				<h1>ESTAS EN: <span><a href="index.html">INICIO</a></span></h1>					<!-- Ruta y enlace de la pagina -->
+				<h2>¡Bienvenidos!</h2>
+				<form class="portal" method="post" action="#">								<!-- Acceso a portal virtual inexistente -->
+					<div class="acceso">
+						<h1>Accede al 'Portal Virtual':</h1>
+						<input type="text" placeholder="Usuario" name="usuario" size="8" maxlength="10">
+						<input type="password" placeholder="Clave"  name="clave" size="5" maxlength="8">
+						<p><input type="submit" name="entrar" value="Entrar"></p>      
+					</div>
+				</form> 
+			</div>
+			<nav>
+				<div class="home"><a href="index.html">Inicio</a></div>
+				<div class="pestanas">
+					<ul>
+						<li><a href="pag/trabajo.html"> Trabajo </a></li>
+                        <li><a href="pag/peso.html"> Peso </a></li>
+                        <li><a href="pag/ejercicios.html"> Ejercicios </a></li>
+                        <li><a href="pag/descanso.html"> Descanso </a></li>
+                        <li><a href="pag/iluminacion.html"> Iluminación </a></li>
+						<li><a href="pag/utilidades.html"> Utilidades </a></li>
+					</ul>
+                </div>
+			</nav>
+			<div id="separador"></div>															<!-- Imagen para separar sección superior de principal -->
+			<div id="aviso">
+				<p>SABÍAS QUE: El 41% de los españoles sufre dolores de espalda</p>
+			</div>
+			<div id="recuerda">
+				<p>RECUERDA: Evite estar demasiado tiempo en la misma postura</p>
+			</div>
+			<div id="bloque">
+				<h3> Noticias Importantes</h3>
+                <p class="noticia"><img src="img/contenidos/sentado.jpg" alt="Imagen sentado">Hay estudios científicos que demuestran que una misma postura puede aumentar o disminuir la carga que sufre el disco intervertebral según cómo se adopte. Cuando una persona está sentada, la carga que soporta su disco intervertebral puede oscilar entre el 60% y el 140% de la que sufre cuando está de pie.</p>
+                <p class="noticia"><img src="img/contenidos/espalda.jpg" alt="Imagen espalda">Los estudios realizados para evaluar la eficacia de la higiene postural en la prevención o tratamiento de dolores de espalda, han demostrado que enseñar la higiene postural tiene un efecto nimio o inexistente, ya sea porque reducir la carga resulta de escasa relevancia clínica o porque resulta imposible cumplir las normas de higiene postural 24 horas al día.</p>
+                <p class="noticia"><img src="img/contenidos/masaje.jpg" alt="Imagen masaje">Estudios realizados señalan que la educación centrada en el manejo activo (evitar el reposo y mantener el mayor grado de actividad que el dolor permite) y el ejercicio (interrumpiéndolo sólo en la fase más aguda de dolor, y reiniciándolo progresivamente en cuanto sea posible), tienen un efecto mayor que la higiene postural.</p>     <!-- Atributo "alt" usado para mostrar un mensaje de texto mientras se carga la imagen -->
+			</div>
+			<div id="sidebar-principal">
+				<div class="media">
+					<h4>Multimedia</h4>
+					<object type="application/x-shockwave-flash" data="https://www.youtube.com/v/dpINVkpdydg">	<!-- Clase creada para mostrar video incrustado -->
+						<param name="movie" value="https://www.youtube.com/v/dpINVkpdydg">
+						<param name="FlashVars" value="playerMode='embedded'">
+					</object>
+				</div>
+				<div class="agenda">
+					<h4>Agenda</h4>
+					<ul>
+						<li>
+							<div>
+								<strong>28</strong>
+								<span>abr</span>
+							</div>
+							<p>Día Mundial de la Seguridad y Salud en el Trabajo</p>
+						</li>
+						<li>
+							<div>
+								<strong>08</strong>
+								<span>sep</span>
+							</div>
+							<p>Día Mundial de la Fisioterapia</p>
+						</li>
+						<li>
+							<div>
+								<strong>16</strong>
+								<span>oct</span>
+							</div>
+							<p>Día Mundial de la Columna Vertebral</p>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</div>	
+		<div id="footer">
+			<div class="pre-pie">
+				<div class="categoria">															<!-- SecciÓn usadas para mostrar mapa web -->
+					<p><a href="pag/trabajo.html">Trabajo</a></p>
+					<ul>
+                        <li><a href="pag/sentados.html">Sentados</a></li>
+						<li><a href="pag/manos.html">Manos</a></li>
+						<li><a href="pag/piernas.html">Piernas</a></li>
+					</ul>
+				</div>
+				<div class="categoria">
+					<p><a href="pag/peso.html">Peso</a></p>
+					<ul>
+						<li><a href="pag/levantamiento.html">Levantamiento</a></li>
+						<li><a href="pag/transporte.html">Transporte</a></li>
+					</ul>
+				</div>
+				<div class="categoria">
+					<p><a href="pag/ejercicios.html">Ejercicios</a></p>
+					<ul>
+						<li><a href="pag/pilates.html">Pilates</a></li>
+						<li><a href="pag/naprapatia.html">Naprapatía</a></li>
+						<li><a href="pag/consejos_ejercicios.html">Consejos</a></li>
+					</ul>
+				</div>
+				<div class="categoria">
+					<p><a href="pag/descanso.html">Descanso</a></p>
+					<ul>
+						<li><a href="pag/acostarse.html">Al Acostarse</a></li>
+						<li><a href="pag/acostado.html">Estando Acostado</a></li>
+					</ul>
+				</div>
+				<div class="categoria">
+					<p><a href="pag/iluminacion.html">Iluminación</a></p>
+					<ul>
+						<li><a href="pag/recomendaciones_iluminacion.html">Recomendaciones</a></li>
+						<li><a href="pag/tratamiento_iluminacion.html">Tratamiento</a></li>
+					</ul>
+				</div>
+				<div class="categoria">
+					<p><a href="pag/utilidades.html">Utilidades</a></p>
+					<ul>
+						<li><a href="pag/presentacion_utilidades.html">Presentación</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="post-pie">
+				<p>COPYRIGHT (C) 2014-2015 "HIGIENE POSTURAL", "ESPECIALIDAD EN INFORMÁTICA" ~ Todos los derechos reservados. <a href="javascript:window.print();"><img class="foto-pie" src="img/icon_print.png" alt="Botón de imprimir"></a></p>			<!-- Javascript usado para lanzar evento de impresión -->
+				<p>Diseñado y desarrollado por Odei Riveiro Zafra ~ Linares (Jaén)</p>
+			</div>
+		</div>	
 	</body>
 </html>
