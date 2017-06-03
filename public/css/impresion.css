@@ -1,0 +1,124 @@
+/*Version RTM Final
+21:00, Domingo 26/10/2014*/
+body {
+	text-align:center;
+	margin: 0px;
+	font-family: Helvetica;
+}
+h3, h4 {
+	font-size: 34px;
+	padding: 30px 0px 0px 30px;
+	margin: 25px 0px 30px 0px;
+	text-align: left;
+	color:#293227;
+}
+h6 {
+	font-size: 30px;
+	text-align: center;
+	padding:50px 0px 10px 0px;
+	color:#293227;
+}
+#contenido {
+	margin:0px auto 0px auto;
+	width:900px;
+}
+#ampliador {
+    display:none;
+}
+#header {
+	width:900px;
+}
+#header img {
+	float:left;
+	margin:-30px 0px 60px 25px;
+}
+#posicion,#acceso,.menu-borde1,.menu-borde2,.pestanas,#navbar img,#sidebar-principal .media,#sidebar-principal .enlaces,#footer img,#footer .pre-pie {
+ 	display:none;
+}
+.home {
+	clear:both;
+	text-align:left;
+}
+.home a {
+	text-decoration:none;
+	font-size: 34px;
+	padding: 0px 0px 0px 30px;
+	margin: 180px 0px 5px;
+	text-align: left;
+	font-weight: bold;
+	color:#293227;
+}
+#aviso {
+	clear:both;
+	float:left;
+	height: 55px;
+	width:900px;
+}
+#recuerda {
+	clear:both;
+	float:left;
+	height: 55px;
+	width:900px;
+}
+#aviso > p, #recuerda > p {
+	margin-bottom:2px;
+	padding:5px 0px 0px 50px;
+	font-size:25px;
+	color: black;
+	text-align: left;
+}
+#bloque {
+	float:left;
+	width:900px;
+}
+#bloque > p {
+	text-align: justify;
+	font-size:20px;
+	padding: 0px 20px 10px 30px;
+	line-height: 30px;
+	border-bottom: 2px solid gray;
+}
+.noticia > img {
+	float:left;
+	width: 150px;
+	padding-right: 10px;
+}
+#sidebar-principal {
+	clear: both;
+	float:left;
+	padding-right: 10px;
+}
+#sidebar-principal .agenda ul li {
+	list-style-type: none;
+	height: 60px;
+	float: left;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 2px dashed gray;
+}
+#sidebar-principal .agenda ul li div {
+	padding: 4px;
+	margin:0px;
+	float: left;
+	margin:0px;
+	color: black;
+}
+#sidebar-principal .agenda ul li div strong {
+	display: block;
+	font-size: 30px;
+}
+#sidebar-principal ul li p {
+	color:black;
+	margin: -50px 0px 0px 0px;
+	padding: 2px 0px 0px 50px;
+	float: left;
+	text-align:left;
+	font-size: 25px;
+	width: 800px;
+}
+#footer .post-pie {
+	padding-top:50px;
+	clear:both;
+	font-size:15px;
+	text-align: center;
+}
