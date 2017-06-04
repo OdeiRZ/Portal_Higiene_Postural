@@ -1,16 +1,16 @@
-Portal Higiene Postural 0.9
+Portal Higiene Postural 0.91
 =========================================
 
-Portal web promocional sobre la higiene postural en especialidad inform醫ica desarrollado en HTML.
-La plataforma cuenta con una secci髇 de inicio, trabajo, peso, ejercicios, iluminaci髇 y diversos
+Portal web promocional sobre la higiene postural en especialidad inform谩tica desarrollado en HTML.
+La plataforma cuenta con una secci贸n de inicio, trabajo, peso, ejercicios, iluminaci贸n y diversos
 recursos, documentos y utilidades.
 
-La p醙ina se compone de una multitud de secciones con informaci髇 鷗il sobre la higiene postural, 
-conceptos y consejos pr醕ticos sobre la misma, documentos de apoyo, im醙enes e ilustraciones, 
-enlaces a v韉eos externos, utilidades, un m骴ulo de accesibilidad que permite ampliar y/o reducir 
-el tama駉 del texto, etc..
+La p谩gina se compone de una multitud de secciones con informaci贸n 煤til sobre la higiene postural, 
+conceptos y consejos pr谩cticos sobre la misma, documentos de apoyo, im谩genes e ilustraciones, 
+enlaces a v铆deos externos, utilidades, un m贸dulo de accesibilidad que permite ampliar y/o reducir 
+el tama帽o del texto, etc..
 
 ## Licencia
-Esta aplicaci髇 se ofrece bajo licencia [AGPL versi髇 3].
+Esta aplicaci贸n se ofrece bajo licencia [GPL versi贸n 3].
 
-[AGPL versi髇 3]: http://www.gnu.org/licenses/agpl.html
+[GPL versi贸n 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
