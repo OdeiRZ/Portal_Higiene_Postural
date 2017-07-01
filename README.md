@@ -1,7 +1,7 @@
 Portal Higiene Postural 0.91
 =========================================
 
-Portal web promocional sobre la higiene postural en especialidad informática desarrollado en HTML.
+Portal web promocional sobre higiene postural en especialidad de informática desarrollado en HTML.
 La plataforma cuenta con una sección de inicio, trabajo, peso, ejercicios, iluminación y diversos
 recursos, documentos y utilidades.
 
