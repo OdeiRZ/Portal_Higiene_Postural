@@ -1,27 +1,31 @@
-Portal Higiene Postural 0.91
-=========================================
+# Portal Higiene Postural
 
-Portal web promocional sobre higiene postural en especialidad de informática desarrollado en HTML.
-La plataforma cuenta con una sección de inicio, trabajo, peso, ejercicios, iluminación y diversos
-recursos, documentos y utilidades.
+Portal web informativo en HTML sobre higiene postural en el puesto de trabajo informático, con secciones temáticas y recursos descargables.
 
-La página se compone de una multitud de secciones con información útil sobre la higiene postural, 
-conceptos y consejos prácticos sobre la misma, documentos de apoyo, imágenes e ilustraciones, 
-enlaces a vídeos externos, utilidades, un módulo de accesibilidad que permite ampliar y/o reducir 
-el tamaño del texto, etc..
+## Características
 
-Para cualquier referencia relacionada con el sitio, podemos ver el portal desplegado 
-visitando el siguiente [enlace].
+- Navegación por secciones temáticas: Trabajo, Peso, Ejercicios, Descanso, Iluminación y Utilidades.
+- Contenido informativo con consejos prácticos, noticias e imágenes ilustrativas sobre posturas correctas.
+- Módulo de accesibilidad para ampliar o reducir el tamaño del texto de la página (hasta 5 niveles en cada sentido).
+- Hoja de estilos específica para impresión (`css/impresion.css`), con un logo adaptado para ese formato.
+- Recursos descargables en PDF (ejercicios, naprapatía, pilates, notas técnicas de prevención) y una calculadora en Flash (`calculadora.swf`).
+- Formulario de acceso a un "portal virtual" de ejemplo (sin backend real, no envía datos a ningún sitio).
 
-## Requisitos
-- Navegador Web [Chrome], [Firefox], [Opera], [Microsoft Edge], etc..
+## Tecnologías
+
+- HTML5
+- CSS3 (con hoja de estilos separada para impresión)
+- JavaScript vanilla (módulo de accesibilidad de tamaño de texto)
+
+## Instalación / Cómo ejecutarlo
+
+No requiere instalación ni servidor:
+
+1. Clona el repositorio.
+2. Abre `public/index.html` directamente en un navegador (Chrome, Firefox, Edge, etc.).
+
+Proyecto de portafolio: sitio informativo estático de varias páginas enlazadas, con énfasis en maquetación HTML/CSS, accesibilidad básica y estilos de impresión.
 
 ## Licencia
-Esta aplicación se ofrece bajo licencia [GPL versión 3].
 
-[enlace]: https://odeirz.github.io/Portal_Higiene_Postural/public/
-[Chrome]: https://www.google.es/chrome/browser/desktop/index.html
-[Firefox]: https://www.mozilla.org/es-ES/firefox/new/
-[Opera]: http://www.opera.com/es
-[Microsoft Edge]: https://www.microsoft.com/es-es/windows/microsoft-edge
-[GPL versión 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
+GPL versión 3 (ver archivo [LICENSE](LICENSE)).
